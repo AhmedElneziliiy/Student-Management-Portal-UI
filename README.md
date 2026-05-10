@@ -2,10 +2,6 @@
 
 The **Angular frontend** for the Student Management Portal — a single-page application for viewing, adding, editing, and deleting student records.
 
-## What it does
-
-Provides a clean UI for managing students. Connects to the [Student Management Portal API](https://github.com/AhmedElneziliiy/Student-Management-Portal-API) to fetch and update student data in real time.
-
 ## Tech Stack
 
 - **Angular** — component-based SPA
@@ -20,7 +16,6 @@ Provides a clean UI for managing students. Connects to the [Student Management P
 - Gender selection
 - Angular service layer for clean API communication
 - Separate API and UI models (domain separation)
-- Top navigation component
 
 ## Project Structure
 
@@ -37,12 +32,6 @@ src/app/
 ## Getting Started
 
 1. Make sure the [API](https://github.com/AhmedElneziliiy/Student-Management-Portal-API) is running.
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Start the dev server:
-   ```bash
-   ng serve
-   ```
+2. Install dependencies: `npm install`
+3. Start the dev server: `ng serve`
 4. Open `http://localhost:4200`.
